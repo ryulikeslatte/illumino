@@ -29,33 +29,12 @@ a {
   font-weight: 500;
   line-height: normal;
   display: flex;
-  margin-top: 60px;
-  margin-left: 89px;
 }
 
 .container {
   width: 1512px;
   height: 982px;
+  min-width: 100vh;
   margin: auto;
   text-align: center;
-}
-
-.container .sidebar {
-  background-color: var(--bgSoft);
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 220px;
-  position: fixed;
-  display: flex;
-  flex-direction: column;
-  flex-shrink: 0;
-}
-
-img {
-  padding-top: 32px;
-}
-
-.footer {
-  background-color: hsla(247, 88%, 67%, 1);
 }

@@ -1,13 +1,14 @@
+import Link from "next/link";
 import Links from "./links/Links"
-import Link
- from "next/link";
+import styles from "./navbar.module.css"
+
 const Navbar = () => {
     return (
-        <div className="image-text">
-            <span className="image">
-                <img className="home" src="./illumino.png" alt="logo illumino"></img>
+        <div className={styles.container}>
+            <span className={styles.image}>
+                <a href="/"><img className="home" src="./illumino.png" alt="logo illumino"></img></a>
             </span>
-            <div className="navbar">
+            <div className={styles.navbar}>
                 <Links/>
             </div>
         </div>

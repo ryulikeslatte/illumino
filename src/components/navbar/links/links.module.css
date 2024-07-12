@@ -1,9 +1,6 @@
 .container a {
-    padding-left: 89px;
     display: flex;
     flex-direction: column;
     text-align: left;
     margin-bottom: 30px;
-    padding-top: 13px;
-    padding-bottom: 13px;
 }

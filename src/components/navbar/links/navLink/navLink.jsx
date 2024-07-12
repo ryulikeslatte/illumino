@@ -8,9 +8,14 @@ const NavLink = ({ item }) => {
     const pathName = usePathname();
 
     return (
-        <Link href={item.path} className={`${styles.container} ${pathName === item.path && styles.active}`}>
-            {item.title}
-        </Link>
+        <div className={styles.container}>
+            <Link href={item.path} className={`${styles.container} ${pathName === item.path && styles.active}`}>
+                <div className={styles.page}>
+                    <img src={item.image} alt={`${item.title} icon`} className={styles.icon} />
+                    <span className={styles.title}>{item.title}</span>
+                </div>
+            </Link>
+        </div>
     );
   };
   

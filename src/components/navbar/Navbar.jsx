@@ -8,9 +8,13 @@ const Navbar = () => {
             <span className={styles.image}>
                 <a href="/"><img className="home" src="./illumino.png" alt="logo illumino"></img></a>
             </span>
-            <div className={styles.navbar}>
-                <Links/>
+
+            <div className="main">
+                <div className={styles.navbar}>
+                    <Links/>
+                </div>
             </div>
+            
         </div>
         );
   };

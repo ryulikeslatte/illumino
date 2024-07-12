@@ -13,3 +13,21 @@
     padding-top: 13px;
     padding-right: 13px; 
 }
+
+/* .container {
+    line-height: normal;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+.active {
+    background-color: hsla(247, 88%, 67%, 1);
+    color: var(--text);
+    width: 220px;
+    height: 55px;
+    flex-shrink: 0;
+    border-radius: 0px 7px 7px 0px;
+    font-weight: 600;
+    padding-top: 13px;
+    padding-right: 13px; 
+} */

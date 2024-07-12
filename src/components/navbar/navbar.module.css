@@ -4,7 +4,6 @@
     left: 0;
     height: 100%;
     width: 220px;
-    position: fixed;
     display: flex;
     flex-direction: column;
     flex-shrink: 0;
@@ -15,4 +14,3 @@
     margin-left: 52px;
     margin-bottom: 50px;
 }
-

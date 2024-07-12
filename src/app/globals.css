@@ -12,6 +12,7 @@
 body {
   background-color: var(--bg);
   color: var(--text); 
+  display: flex;
 }
 
 *{
@@ -21,7 +22,7 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-a {
+/* a {
   text-decoration: none;
   color: var(--textSoft);
   font-size: 18px;
@@ -29,12 +30,28 @@ a {
   font-weight: 500;
   line-height: normal;
   display: flex;
-}
+} */
 
 .container {
-  width: 1512px;
-  height: 982px;
-  min-width: 100vh;
-  margin: auto;
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  height: 100vh;
+}
+
+a {
+  text-decoration: none;
+  color: var(--textSoft);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  color: white;
   text-align: center;
+  display: flex;
+}
+
+.main-content {
+  padding: 20px;
+  background-color: var(--bg);
+  overflow-y: auto;
 }

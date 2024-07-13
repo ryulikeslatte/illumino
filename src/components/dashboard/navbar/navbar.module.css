@@ -1,0 +1,15 @@
+.container {
+    background-color: var(--bgSoft);
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+}
+
+.image {
+    margin-top: 32px;
+    margin-left: 52px;
+    margin-bottom: 50px;
+}

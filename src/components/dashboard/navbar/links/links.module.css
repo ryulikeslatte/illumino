@@ -1,0 +1,6 @@
+.container a {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-bottom: 30px;
+}

@@ -1,5 +1,6 @@
 import Footer from "@/components/dashboard/footer/Footer";
 import Navbar from "@/components/dashboard/navbar/Navbar";
+import './dashboard.css'
 
 const Layout = ({children}) => {
     return (

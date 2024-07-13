@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
+
 :root{
   --bg: #161616;
   --bgSoft: #1D1E1F;
@@ -21,6 +22,16 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+/* a {
+  text-decoration: none;
+  color: var(--textSoft);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  display: flex;
+} */
+
 .container {
   display: grid;
   grid-template-columns: 220px 1fr;
@@ -34,6 +45,7 @@ a {
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+  color: white;
   display: flex;
 }
 

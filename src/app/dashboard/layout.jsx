@@ -1,12 +1,12 @@
-import Footer from "@/components/dashboard/footer/Footer";
-import Navbar from "@/components/dashboard/navbar/Navbar";
-import './dashboard.css'
+import Footer from "@/ui/dashboard/footer/Footer";
+import Navbar from "@/ui/dashboard/navbar/Navbar";
+import styles from '@/ui/dashboard/dashboard.module.css'
 
 const Layout = ({children}) => {
     return (
-        <div className='container'>
+        <div className={styles.container}>
             <Navbar />
-            <div className='main-content'>
+            <div className={styles.content}>
             {children}
             </div>
             <Footer />

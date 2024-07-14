@@ -1,7 +1,9 @@
-const HomePage = () => {
-    return (
-      <div>This is dashboard page</div>
-    )
-  };
-  
-  export default HomePage;
+
+const Dashboard = () => {
+  return (
+    <div>
+    </div>
+  );
+};
+
+export default Dashboard;
